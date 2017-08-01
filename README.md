@@ -8,7 +8,7 @@ Express application that stores a plain-text cookie
 ## modules
 
 ```
-/app1/app.js
+app.js
 ```
 
 ## Discussion

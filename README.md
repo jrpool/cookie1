@@ -25,21 +25,21 @@ The application fulfills the requirements of the App1 compenent of the Secure Se
 
 0. These instructions presuppose that (1) [npm][npm] is installed.
 
-1. Your copy of this project will be located in its own directory, inside some other directory that you may choose or create. For example, to create that parent directory inside your own home directory’s `Documents` subdirectory and call it `projects`, you can execute:
+1. Your copy of this project will be located in its own directory, inside some other directory that you may choose or create. For example, to create that parent directory inside your own home directory’s `Documents/projects` subdirectory and call it `cookies`, you can execute:
 
-    `mkdir ~/Documents/projects`
+    `mkdir ~/Documents/projects/cookies`
 
 Make that parent directory your working directory, by executing, for example:
 
-    `cd ~/Documents/projects`
+    `cd ~/Documents/projects/cookies`
 
-2. Clone this project’s repository into it, thereby creating the project directory, named `cookie1`, by executing:
+2. Clone this project’s repository into it, thereby creating the project directory, named `app1`, by executing:
 
-    `git clone https://github.com/jrpool/cookie1.git json-api-promise`
+    `git clone https://github.com/jrpool/cookie1.git app1`
 
 2. Make the project directory your working directory by executing:
 
-    `cd cookie1`
+    `cd app1`
 
 3. Install required dependencies (you can see them listed in `package.json`) by executing:
 
@@ -47,7 +47,7 @@ Make that parent directory your working directory, by executing, for example:
 
 ## Usage and Examples
 
-To start the application, execute `npm start` (or, if under Windows, `npm run startwin`).
+To start the application, execute `npm start`.
 
 To access the application while it is running, use a web browser to request this URL:
 
@@ -57,7 +57,7 @@ Complete the form that is served and submit it.
 
 The response to your submission will be another, personalized form allowing you to request the deletion of the information that you provided. If you make that request, the response will be the original form.
 
-The application stores your information in a cookie among your browser’s files. As long as the cookie remains in existence, subsequent visits to the same URL with the same browser instance will elicit the personalized form. If you prevent the storage of that cookie or cause the cookie to be deleted after creation, subsequent visits to the URL will elicit the original, non-personalized form.
+The application stores your information in a cookie among your browser’s files. As long as the cookie remains in existence, subsequent visits to the same URL with the same browser instance will elicit the personalized form. If you prevent the storage or transmission of that cookie, cause the cookie to be deleted after creation, or access the application from an incognito browser window, subsequent visits to the URL will elicit the original, non-personalized form.
 
 To stop the application, send a SIGINT signal to its process, by entering the keypress CONTROL-C in the terminal window.
 

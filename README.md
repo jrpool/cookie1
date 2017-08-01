@@ -57,7 +57,7 @@ Complete the form that is served and submit it.
 
 The response to your submission will be another, personalized form allowing you to request the deletion of the information that you provided. If you make that request, the response will be the original form.
 
-The application stores your information in a cookie among your browser’s files. As long as the cookie remains in existence, subsequent visits to the same URL with the same browser instance will elicit the personalized form. If you prevent the storage or transmission of that cookie, cause the cookie to be deleted after creation, or access the application from an incognito browser window, subsequent visits to the URL will elicit the original, non-personalized form.
+The application stores your information in a cookie, set to expire in 60 days, among your browser’s files. As long as the cookie remains in existence, subsequent visits to the same URL with the same browser instance will elicit the personalized form. If you prevent the storage or transmission of that cookie, cause the cookie to be deleted after creation, or access the application from an incognito browser window, subsequent visits to the URL will elicit the original, non-personalized form.
 
 To stop the application, send a SIGINT signal to its process, by entering the keypress CONTROL-C in the terminal window.
 
